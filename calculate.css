@@ -5,14 +5,26 @@
 
 
 body {
-	font-size: 3rem;
-	color: #f7f7f7;
+	font-size: 4rem;
+	color: #FFF;
+}
+
+section {
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)), url(img.jpg); 
+ 	background-size: cover;
+ 	background-position: 50% 50%;
 }
 
 form {
-	top: 0;
-	transform: translate(30%);
+	padding: 50px 0 0 0px;
+	width: 100vw;
+	margin: auto;
+  	width: 50%;
+  	padding: 10px;
 }
+
 .olevels {
 	display: flex;
 }
@@ -20,5 +32,28 @@ form {
 .subjects, .grades {
 	display: flex;
 	flex-direction: column; 
-	margin: 20px;
+	margin: 30px;
+}
+
+header, .new {
+	margin-bottom: 20px;
+}
+
+input, select {
+	padding: 5px 8px;
+}
+
+input[type=number] {
+	outline: none;
+	border: 2px solid grey;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.subjects input, .grades select {
+	margin-bottom: 10px; 
 }
