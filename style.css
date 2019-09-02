@@ -64,7 +64,7 @@ a {
   margin: 4px 2px;
   box-shadow: 3px 5px 3px #888888;
   border-radius: 12px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 a:hover  {
