@@ -50,3 +50,22 @@ main {
 	padding: 25rem 5rem;
 	margin-top: -20vh;
 }
+
+a, button {
+  background: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)); 
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  box-shadow: 3px 5px 3px #888888;
+  border-radius: 12px;
+  cursor: pointer;
+}
+a:hover , button:hover {
+	transform: scale(1.1);
+}
