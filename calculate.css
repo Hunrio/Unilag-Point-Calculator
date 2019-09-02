@@ -5,7 +5,13 @@
 
 
 body {
-	font-size: 2rem;
+	font-size: 3rem;
+	color: #f7f7f7;
+}
+
+form {
+	top: 0;
+	transform: translate(30%);
 }
 .olevels {
 	display: flex;
