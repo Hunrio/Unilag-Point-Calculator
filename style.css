@@ -51,7 +51,7 @@ main {
 	margin-top: -20vh;
 }
 
-a, {
+a {
   background: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)); 
   border: none;
   color: white;
@@ -67,6 +67,6 @@ a, {
   cursor: pointer;
 }
 
-a:hover , button:hover {
+a:hover  {
 	transform: scale(1.1);
 }
