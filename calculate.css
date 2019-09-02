@@ -20,7 +20,7 @@ section {
 form {
 	margin: auto;
   	width: 70%;
-  	padding: 100px;
+  	padding-top: 100px;
 }
 
 .olevels {
@@ -46,7 +46,9 @@ input[type=number] {
 	background-color: transparent;
 	border: none;
 	border-bottom: 3px solid #FFF;
-	font-size: 1rem;
+	width: 120px;
+	padding-bottom: 0;
+	font-size: 4rem;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -57,4 +59,26 @@ input[type=number]::-webkit-outer-spin-button {
 
 .subjects input, .grades select {
 	margin-bottom: 10px; 
+	border-radius: 3px;
+	color: black;
+	font-size: 2.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+		header, .new {
+		margin-bottom: 50px;
+	}
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
