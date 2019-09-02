@@ -75,11 +75,11 @@ button {
   border: none;
   color: white;
   text-decoration: none;
-  padding: 12px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.5rem;
   margin: 4px 2px;
   box-shadow: 3px 5px 3px #888888;
   border-radius: 12px;
