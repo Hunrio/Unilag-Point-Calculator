@@ -51,7 +51,7 @@ main {
 	margin-top: -20vh;
 }
 
-a {
+.aButton {
   background: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)); 
   border: none;
   color: white;
@@ -62,11 +62,14 @@ a {
   display: inline-block;
   font-size: 1.5rem;
   margin: 20px 2px;
-  box-shadow: 3px 5px 3px #888888;
+  box-shadow: 3px 5px 5px #888888;
   border-radius: 12px;
   cursor: pointer; 
 }
 
-a:hover  {
+.aButton:hover  {
 	transform: scale(1.1);
 }
+.not, h3 {
+ 	color: rgb(86,20,176,0.9);
+ }
