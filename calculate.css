@@ -20,7 +20,7 @@ section {
 form {
 	margin: auto;
   	width: 70%;
-  	padding: 100px;
+  	padding-top: 100px;
 }
 
 .olevels {
@@ -57,4 +57,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .subjects input, .grades select {
 	margin-bottom: 10px; 
+	border-radius: 3px;
+	color: black;
 }
