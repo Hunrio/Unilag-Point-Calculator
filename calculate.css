@@ -12,17 +12,15 @@ body {
 section {
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)), url(img.jpg); 
+	background-image: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)), url(img.jpg) ; 
  	background-size: cover;
  	background-position: 50% 50%;
 }
 
 form {
-	padding: 50px 0 0 0px;
-	width: 100vw;
 	margin: auto;
   	width: 70%;
-  	padding: 10px;
+  	padding: 100px;
 }
 
 .olevels {
