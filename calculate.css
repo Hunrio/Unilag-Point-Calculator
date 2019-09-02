@@ -51,6 +51,10 @@ input[type=number] {
 	font-size: 4rem;
 }
 
+input[type=number]:focus {
+ border-bottom: 5px solid #add8e6;
+}
+
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
