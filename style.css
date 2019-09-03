@@ -14,7 +14,7 @@
 
  header {
  	height: 95vh; 
- 	background-image: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)), url(img.jpg); 
+ 	background-image: linear-gradient(to right, rgb(86,20,176,0.9), rgb(219,214,92,0.5)), url(img1.jpg); 
  	background-size: cover;
  	background-position: 50% 50%;
 	clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -73,3 +73,11 @@ main {
 .not, h3 {
  	color: rgb(86,20,176,0.9);
  }
+
+ .credit {
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: rgb(86,20,176,0.9);
+	text-decoration: none;
+	font-weight: 300;
+}
